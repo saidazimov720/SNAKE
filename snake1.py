@@ -94,5 +94,9 @@ for event in pygame.event.get():
             y1_change = snake_block
             x1_change = 0
             
+#snake hits boundaries
+if x1 >= dis_width or x1 < 0 or y1 >= dis_height or y1 < 0:
+    game_close = True
+            
 
  
