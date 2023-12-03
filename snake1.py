@@ -27,6 +27,6 @@ snake_speed = 20
 #initialize clock
 clock = pygame.time.Clock()
 #define the snake
- snake = []
- snake_length = 1
+snake = []
+snake_length = 1
  
