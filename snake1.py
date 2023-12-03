@@ -51,5 +51,19 @@ def our_snake(snake_block, snake_list):
         pygame.draw.rect(dis, green, [x[10], x[1], snake_block, snake_block])
         
 #define loop
+def gameloop():
+    game_over = False
+    game_close = False
+    
+    while not game_over:
+        while game_close:
+            dis.fill(blue)
+            game_over_font = pygame.font.SysFont(None, 100)
+            game_over_surface = game_over_font.render("Your score:" + str(snake_length - 1), True, red)
+            game_over_rect = game_over_surface.get_rect()
+            game_over_rect.midtop = (dis_width / 2, dis_height / 4)
+            dis.blit(game_over_surface, game_over_rect)
+            
+            time.sleep(2)
 
  
