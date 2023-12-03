@@ -33,5 +33,12 @@ snake_length = 1
 snake_block = 10
 snake_speed = 20
 snake_direction = "right"
+#set initial snake position
+x1 = dis_width / 2
+y1 = dis_height / 2
+
+#set the change in position
+x1_change = 0 
+y1_change = 0 
 
  
