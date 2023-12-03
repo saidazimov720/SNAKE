@@ -41,4 +41,8 @@ y1 = dis_height / 2
 x1_change = 0 
 y1_change = 0 
 
+#food
+foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
+foodx = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
+
  
