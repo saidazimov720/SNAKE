@@ -43,7 +43,7 @@ y1_change = 0
 
 #food
 foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
-foodx = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
+foody = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
 
 #define a function to draw the  snake
 def our_snake(snake_block, snake_list):
