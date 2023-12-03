@@ -115,7 +115,8 @@ for x in snake[:-1]:
     if x == snake_head:
         game_close = True
 
-
+#draw the snake
+our_snake(snake_block, snake)
             
 
  
