@@ -118,5 +118,12 @@ for x in snake[:-1]:
 #draw the snake
 our_snake(snake_block, snake)
             
+#update the display
+pygame.display.update()
+
+#check if snake eats teh food
+if x1 == foodx and y1 == foody:
+    foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
+    foody = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
 
  
