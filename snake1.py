@@ -29,4 +29,9 @@ clock = pygame.time.Clock()
 #define the snake
 snake = []
 snake_length = 1
+#initialize snake position and direction
+snake_block = 10
+snake_speed = 20
+snake_direction = "right"
+
  
