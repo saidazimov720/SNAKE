@@ -21,3 +21,8 @@ dis = pygame.display.set_mode((dis_width, dis_height))
 pygame.display.set_caption('Snake game by Nurbek')
 #set the font and size
 font_style = pygame.font.SysFont(None, 50)
+#set the snake block size and speed
+snake_block = 10
+snake_speed = 20
+#initialize clock
+clock = pygame.time.Clock()
