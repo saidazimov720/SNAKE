@@ -106,6 +106,11 @@ pygame.draw.rect(dis, red, [foodx, foody, snake_block, snake_block])
 snake_head = []
 snake_head.append(x1)
 snake_head.append(y1)
+snake.append(snake_head)
+if len(snake) > snake_length:
+    del snake[0]
+
+
             
 
  
