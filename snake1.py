@@ -110,6 +110,11 @@ snake.append(snake_head)
 if len(snake) > snake_length:
     del snake[0]
 
+#check if snake hits itself
+for x in snake[:-1]:
+    if x == snake_head:
+        game_close = True
+
 
             
 
